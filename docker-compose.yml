@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  server:
+    environment:
+      - FLASK_RUN_HOST=0.0.0.0
+    build: server/
+    volumes:
+      - $PWD/server:/server
+    ports:
+      - "3300:3300"
+  client:
+    build: client/
+    ports:
+      - "1234:1234"
+
