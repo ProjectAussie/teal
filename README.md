@@ -1,21 +1,17 @@
 # Teal
 Visualize trace files.
 
-Dependencies
-------------
+# Run Teal on your local computer
 
-Teal requires Tracy, please intall first:
-
-`https://github.com/gear-genomics/tracy`
-
-
-Install a local copy for testing
---------------------------------
+Download the source code using `git clone`:
 
 `git clone https://github.com/gear-genomics/teal.git`
 
-`cd teal`
+Or download as a .zip and unpack.
 
+Open a terminal and `cd` into the Teal directory:
+
+`cd teal`
 
 ## Setup and run the web app (server & client) using Docker Compose
 
@@ -25,12 +21,13 @@ Start the services:
 
 `docker-compose up -d`
 
-(The first time you run this, it maky take a few minutes to build the containers)
+(The first time you run this, it may take a few minutes to build the containers)
 
 Connect to the client via http://localhost:1234
 
-Setup and run the server manually
-------------------------
+## Setup the web app manually
+
+### Server
 
 The server runs in a terminal
 
@@ -50,8 +47,7 @@ Start the server:
 
 `python server/server.py`
 
-Setup and run the client manually
-------------------------
+### Client
 
 The client requires a different terminal
 
