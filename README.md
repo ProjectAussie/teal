@@ -5,7 +5,7 @@ Visualize trace files.
 
 Download the source code using `git clone`:
 
-`git clone https://github.com/gear-genomics/teal.git`
+`git clone https://github.com/ProjectAussie/teal.git`
 
 Or download as a .zip and unpack.
 
@@ -13,7 +13,7 @@ Open a terminal and `cd` into the Teal directory:
 
 `cd teal`
 
-## Setup and run the web app (server & client) using Docker Compose
+## Set up and run the web app (server & client) using Docker Compose
 
 Install [Docker Desktop](https://docs.docker.com/desktop/mac/install/). Docker Desktop for Mac includes Docker Compose, which will be used to stand up the server and client.
 
@@ -25,7 +25,7 @@ Start the services:
 
 Connect to the client via http://localhost:1234
 
-## Setup the web app manually
+## Set up the web app manually
 
 ### Server
 
